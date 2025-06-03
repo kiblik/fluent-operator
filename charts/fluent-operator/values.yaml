@@ -15,6 +15,7 @@ operator:
     image:
       registry: docker.io
       repository: docker
+      # renovate: datasource=docker depName=docker
       tag: "20.10"
 
     resources:
